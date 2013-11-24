@@ -22,6 +22,7 @@ end
 # Gems used only for development
 group :development do
 	gem 'rspec-rails', '2.14.0'
+	gem 'annotate'
 end
 
 group :test do
