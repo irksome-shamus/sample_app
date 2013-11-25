@@ -23,6 +23,7 @@ end
 group :development do
 	gem 'rspec-rails', '2.14.0'
 	gem 'annotate'
+	gem 'activerecord-postgresql-adapter'
 end
 
 group :test do
