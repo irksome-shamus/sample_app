@@ -5,7 +5,7 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '1.3.8', :require => 'sqlite3'
+gem 'activerecord-postgresql-adapter'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -23,7 +23,6 @@ end
 group :development do
 	gem 'rspec-rails', '2.14.0'
 	gem 'annotate'
-	gem 'activerecord-postgresql-adapter'
 end
 
 group :test do
