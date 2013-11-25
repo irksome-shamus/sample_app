@@ -22,6 +22,8 @@ test:
 
 production:
   adapter: postgresql
-  database: db/production.postgresql
+  database: sample_app_db
+  username: shamus
+  password: WebDesign613$
   pool: 5
   timeout: 5000
