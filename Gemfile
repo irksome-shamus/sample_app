@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby "2.0.0"
 gem 'rails', '3.2.14'
+gem 'pg'
+gem 'gravatar_image_tag'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -27,13 +29,14 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+
 end
 
 group :test do
 	gem 'rspec', '2.14.1'
 	gem 'webrat'
 	gem 'spork'
+  gem 'factory_girl_rails'
 end
 
 gem 'jquery-rails'
